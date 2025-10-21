@@ -1,0 +1,116 @@
+*{
+    text-decoration: none;
+}
+
+:root{
+    --main-color: #4B4E6D;
+    --secondary-color: #92D8A9;
+    --contrast-color: #F3F3F3;
+    --light-color: #BECEC5;
+    --dark-color: #222222;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.title{
+    display: flex;
+    background-color: #4B4E6D;
+    width: 95vw;
+    justify-self: center;
+    height: 100px;
+    justify-content: center;
+}
+
+.ttekst{
+    align-self: center;
+    color: var(--contrast-color);
+    font-size: 30px;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.przedzialka{
+    width: 93vw;
+    border-top: 3px solid gray;
+    margin: 15px 15px 30px 30px;
+}
+
+.navi{
+    display: flex;
+    background-color: #4B4E6D;
+    width: 95vw;
+    justify-self: center;
+    height: 100px;
+}
+
+.hyper{
+    display: flex;  
+    width: 24vw;
+    justify-self: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.glowna{
+    align-self: center;
+    color: white;
+    font-size: 20px;
+}
+
+.galeria{
+    align-self: center;
+    color: white;
+    font-size: 20px;
+}
+
+.onas{
+    align-self: center;
+    color: white;
+    font-size: 20px;
+}
+
+.kontakt{
+    align-self: center;
+    color: white;
+    font-size: 20px;
+}
+
+.bodyv{
+    display: flex;
+    background-color: #4B4E6D;
+    justify-self: center;
+    width: 95vw;
+    height: 65vh;
+    flex-wrap: wrap;
+}
+
+.artykuly{
+    width: 69vw;
+    height: 65vh;
+    padding: 2vw;
+    margin-bottom: 3vh;
+}
+
+.formularz{
+    background-color: aliceblue;
+    width: 22vw;
+    height: 65vh;
+    margin-bottom: 3vh;
+}
+
+.tytult{
+    color: var(--contrast-color);
+    flex-wrap: wrap;
+}
+
+.tekstt{
+    color: var(--light-color);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
